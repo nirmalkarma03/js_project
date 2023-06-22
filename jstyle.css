@@ -1,0 +1,18 @@
+h1 {
+
+
+	font-size: 30px;
+	color:#fa4545;
+}
+
+button {
+
+	 font-size: 20px;
+	 color: white;
+	 background-color: darkred;
+}
+
+img {
+	padding: 20px;
+	float:center;
+}
