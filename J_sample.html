@@ -4,6 +4,13 @@
 <head>
 	<link rel="stylesheet" type="text/css" href="jstyle.css">
 	<title>js_page</title>
+	<!-- create function -->
+	<script>
+			function myfunction(){
+				document.getElementById('mf').innerHTML="Krisna....";
+			}
+	</script>
+
 </head>
 <body>
 	<h1> click to display current date and time</h1>
@@ -38,7 +45,49 @@
 	 <script>
 	 	document.getElementById('test').innerHTML="welcome in the world of java script";
 	 </script>
-	 
+	 <br>
+	 <p id="mf"> Radhe ......</p>
+	 <button onclick="myfunction()"> click me</button>
+	 <br>
+
+	 <h1 id="test1"> Hello Bhai </h1>
+	 <button onclick="nirfunction()">Reply .</button>
+	 <script src="sample.js"></script>
+
+
+	 <br>
+	 <button style="float:right; " onclick="window.print()">print</button>
+
+	 <br>
+	    <p id="g" style="display:none;"> name -gajendra <br> joining date-05/01/2023 </p>
+	    <p id="d" style="display:none;"> name - dhanraj <br> joining date-05/01/2023 </p>
+	    <p id="h" style="display:none;"> name hemlata <br> joining date-15/06/2023 </p>
+	    <p id="n" style="display:none;"> name  nirmal <br> joining date-15/06/2023 </p>
+	    <p id="a" style="display:none;"> name ajay <br> joining date-15/06/2023 </p>
+
+	  
+	 <button onclick="document.getElementById('g').style.display='block'"> gajendra</button> 
+	 <button onclick="document.getElementById('d').style.display='block'"> dhanraj</button> 
+	 <button onclick="document.getElementById('h').style.display='block'"> hemlata</button> 
+	 <button onclick="document.getElementById('n').style.display='block'"> nirmal</button> 
+	 <button onclick="document.getElementById('a').style.display='block'"> ajay</button> 
+	 <br>
+
+	 <!-- dynamicaly value change help fo onchange -->
+	 	<h1>select any one and take information:-</h1>
+	 	<select id="test2" onchange="mychange()"> 
+	 		<option>gajendra</option>
+	 		<option >dhanraj</option>
+	 		<option >hemlata</option>
+	 		<option >nirmal</option>
+	 		<option >Ajay</option>
+
+	 	</select>
+
+	 	<p id="details"> info :--</p>
+	 	<script scr="sample.js"></script>
+	 	
+	
 
 </body>
 </html>
