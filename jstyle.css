@@ -15,4 +15,5 @@ button {
 img {
 	padding: 20px;
 	float:center;
+	display: none;
 }
