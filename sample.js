@@ -58,6 +58,8 @@ $("#test5").text(x);
 
 });
 
+
+// display object using $.param(object_name)
 $(document).ready(function(){
 	car =new Object();
 	car.name="Thar";
@@ -68,24 +70,20 @@ $(document).ready(function(){
 	});
 });
 
-/*
 $(document).ready(function(){
-
- $(document).ajaxStart(function(){
- 	$("#wait").css("display","block");
- });
-
- $(document).ajaxComplete(function(){
- 	$("#wait").css("display","none");
- });
-
- $("button").click(function(){
- 	$("#txt").load("file1.txt");
- });
-
-
+  $(document).ajaxStart(function(){
+    $("#wait").css("display", "block");
+  });
+  $(document).ajaxComplete(function(){
+    $("#wait").css("display", "none");
+  });
+  $("button").click(function(){
+    $("#txt").load("/home/fittonia/Nirmal/karma/js_project/file1.asp");
+  });
 });
-*/
+
+
+/* sir vala 
 
 $(document).ready(function(){
   $(document).ajaxStart(function(){
@@ -97,9 +95,10 @@ $(document).ready(function(){
   });
 });
 
+*/
 $(document).ready(function(){
 	$("button").click(function(){
-		$("div#test7").load("/home/fittonia/Nirmal/karma/js_project/file1.txt");
+		$("#test7").load("/home/fittonia/Nirmal/karma/js_project/file1.asp");
 	});
 });
 
